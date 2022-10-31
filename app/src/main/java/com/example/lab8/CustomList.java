@@ -67,11 +67,11 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public void delete(City city) {
-        //int pos = cities.indexOf(city);
-        //if (pos == -1) {
-        //    throw new IllegalArgumentException();
-        //}
-        //cities.remove(pos);
+        int pos = cities.indexOf(city);
+        if (pos == -1) {
+            throw new IllegalArgumentException();
+        }
+        cities.remove(pos);
     }
 
 }
