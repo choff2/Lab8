@@ -66,4 +66,12 @@ public class CustomList extends ArrayAdapter<City> {
         return cities.contains(city);
     }
 
+    public void delete(City city) {
+        //int pos = cities.indexOf(city);
+        //if (pos == -1) {
+        //    throw new IllegalArgumentException();
+        //}
+        //cities.remove(pos);
+    }
+
 }
